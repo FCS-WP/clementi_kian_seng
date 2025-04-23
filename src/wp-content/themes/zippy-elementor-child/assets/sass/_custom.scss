@@ -1,0 +1,21 @@
+.projects-items {
+  h4.elementor-heading-title {
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+}
+.wp-block-column {
+  .wp-block-video {
+    video {
+      height: 300px;
+    }
+  }
+}
+a{
+    text-decoration: none !important;
+}
