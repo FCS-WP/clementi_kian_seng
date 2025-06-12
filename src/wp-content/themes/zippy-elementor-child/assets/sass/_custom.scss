@@ -19,3 +19,42 @@
 a{
     text-decoration: none !important;
 }
+.ppocta-ft-fix {
+    width: 52px;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    left: unset;
+    text-align: center;
+    z-index: 99999;
+}
+#whatsappButton {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 100%;
+    background: url("/wp-content/uploads/2025/06/whatsapp-icon.svg") center center no-repeat;
+    background-size: 100%;
+}
+a#whatsappButton {outline:none; }
+a#whatsappButton:hover {
+    text-decoration:none;
+    background: url("/wp-content/uploads/2025/06/whatsapp-icon.svg") center center no-repeat;
+    background-size: 100%;
+}
+a#whatsappButton span {
+    z-index: 10;
+    display: none;
+    padding: 10px;
+    right: 56px;
+    width: 240px;
+    line-height: 16px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #CCC;
+}
+a#whatsappButton:hover span {
+    display:inline; position:absolute; color:#111;
+    border:1px solid #DCA; background:#fffAF0;
+}
